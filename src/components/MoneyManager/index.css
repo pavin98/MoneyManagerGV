@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.bgdet {
+  background-color: #ffffff;
+  padding: 25px;
+  height: 100%;
+  font-family: 'Roboto';
+}
+.card1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+  padding: 35px;
+  color: #475569;
+}
+.name-text {
+  margin: 5px 0px;
+}
+.welcome {
+  margin: 5px 0px;
+}
+.spanText {
+  color: #0b69ff;
+  font-size: large;
+  font-weight: 600;
+}
+.Card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  min-height: 60vh;
+}
+.add-btn {
+  margin: 5px 0px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #ffffff;
+}
+form {
+  width: 100%;
+}
+input,
+select {
+  background-color: transparent;
+  border: 1px solid #d7dfe9;
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 85%;
+  margin-bottom: 5px;
+}
+.formCard {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 15px 15px 0px;
+}
+.subCard2 {
+  width: 100%;
+  border: 1px solid #d7dfe9;
+  width: 50%;
+  border-radius: 10px;
+  padding: 15px;
+  height: 100%;
+  min-height: 50vh;
+}
+.historyCard {
+  margin: 15px 0px 15px 15px;
+}
+ul {
+  list-style: none;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+.history-text {
+  font-size: large;
+  font-weight: bold;
+}
+.text-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+}
+.headtextT {
+  margin-left: 2%;
+}
+.headText {
+  margin-left: 20%;
+}
+@media (max-width: 767px) {
+  .Card2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+  .subCard2 {
+    width: 90vw;
+  }
+  .historyCard,
+  .formCard {
+    margin: 15px 15px;
+  }
+}

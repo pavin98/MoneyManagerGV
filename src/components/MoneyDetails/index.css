@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.Number {
+  font-size: larger;
+  font-weight: bold;
+}
+.amount-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+.display-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.logo-image {
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+}
+p,
+h3 {
+  margin: 5px 0px;
+  color: #7e858e;
+}
+.balance-card {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+}
+.expense-card {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+}
+.income-card {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .card2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .display-card {
+    width: 80vw;
+    margin: 5px 0px;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.Text-heading {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  border-top: 0px;
+  padding: 0px 10px;
+}
+.HeadtextT {
+  width: 26%;
+  text-align: left;
+}
+.HeadText {
+  width: 30%;
+  text-align: left;
+}
+.deleteBtn {
+  text-align: right;
+  margin-left: 0px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.delete-image {
+  height: 25px;
+  width: 25px;
+}
